@@ -1,29 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>raimohanska</groupId>
-    <artifactId>rump-android</artifactId>
-    <packaging>jar</packaging>
-    <description>rump-android</description>
-    <version>1.0.1</version>
-    <name>rump-android</name>
-    <organization>
-        <name>raimohanska</name>
-    </organization>
-    <dependencies>
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-library</artifactId>
-            <version>2.9.1</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
-    <repositories>
-        <repository>
-            <id>ScalaToolsMaven2Repository</id>
-            <name>Scala-Tools Maven2 Repository</name>
-            <url>http://scala-tools.org/repo-releases/</url>
-            <layout>default</layout>
-        </repository>
-    </repositories>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>raimohanska</groupId>
+  <artifactId>rump-android</artifactId>
+  <version>1.0.1</version>
+  <distributionManagement>
+    <repository>
+      <id>raimohanska</id>
+      <name>raimohanska</name>
+      <url>file:///Users/jpaanane/reaktor/raimohanska-mvn-repo/releases</url>
+    </repository>
+  </distributionManagement>
 </project>
